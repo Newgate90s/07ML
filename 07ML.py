@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
+# Print statements to inform the user how the histogram is made and meant to be read
 print("-" * 120)
 print("Average strikes landed per fighter type histogram.")
 print("-" * 120)
