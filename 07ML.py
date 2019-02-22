@@ -4,10 +4,11 @@ import matplotlib.pyplot as plt
 
 
 print("Type of fighter histogram.")
-print("\n Info: This is a histogram made from datasets coll")
+print("\n Info: This is a histogram made from datasets  ")
 
-# Three types to classify
-# Creating a data set of 1000 values for each item
+# Three types of datasets
+# The datasets are for different types of martial arts fighters
+# Creating a data set of 1000 values for each type
 striker = 1000
 grappler = 1000
 kicker = 1000
