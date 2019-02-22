@@ -2,9 +2,26 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-
-print("Type of fighter histogram.")
-print("\n Info: This is a histogram made from datasets  ")
+print("-" * 120)
+print("Average strikes landed per fighter type histogram.")
+print("-" * 120)
+print("Info: This is a histogram made to showcase the average amount of strikes landed for three different fighting styles. ")
+print("-" * 120)
+print("Data used: Every MMA fight has an average amount of strikes landed. these averages is what were used.")
+print("-" * 120)
+print("Data description: Every fighting style has their strengths and weaknesses.")
+print("Because of this, they stick to what they're strong in.")
+print("Meaning, a kicker wouldn't strike often, and a striker wouldn't kick often")
+print("-" * 120)
+print("Dataset values: ")
+print("\nStriker average landed strikes = 150 + or - 30")
+print("Grappler average landed strikes = 50 + or - 35")
+print("Kicker average landed strikes = 75 + or - 40")
+print("-" * 120)
+print("Histogram legend:")
+print("\nBlue = Striker")
+print("Red = Grappler")
+print("Green = Kicker")
 
 # Three types of datasets
 # The datasets are for different types of martial arts fighters
