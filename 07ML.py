@@ -1,18 +1,25 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-bombers = 500
-fighters = 500
 
-# Average wingspan of a bomber is 28 feet
-# Average wingspan of a fighter is 24 feet
-# I am going to add plus/minus 4 feet to each different type of plane wingspan
 
-bomber_wingspan = 28 + 4 * np.random.randn(bombers)
-fighter_wingspan = 24 + 4 * np.random.randn(fighters)
+print("Type of fighter histogram.")
+print("\n Info: This is a histogram made from datasets coll")
 
-# Visualize our data in a histogram
-# Bombers in blue and fighters in red
+# Three types to classify
+# Creating a data set of 1000 values for each item
+striker = 1000
+grappler = 1000
+kicker = 1000
 
-plt.hist([bomber_wingspan, fighter_wingspan], stacked=True, color=['b', 'r'])
+
+# Using the average landed strikes per fight to classify each type
+striker__landed_strikes = 150 + 30 * np.random.randn(striker)
+grappler_landed_strikes = 50 + 35 * np.random.randn(grappler)
+kicker_landed_strikes = 75 + 40 * np.random.rand(kicker)
+
+# Histogram for our three types of fighters
+# Each type is given a color
+# Striker = blue, grappler = red, kicker = green
+plt.hist([striker__landed_strikes, grappler_landed_strikes, kicker_landed_strikes], stacked=True, color=['b', 'r', 'g'])
 plt.show()
